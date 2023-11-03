@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            border: 1px solid red;
+
+        }
+        .container{
+            background-color: rgb(178, 141, 215);
+            height: 250px;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is the Table</h2>
+        <div class="tab-div">
+            <table>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Weight</th>
+                    <th rowspan="2">Red Eyes</th>
+                </tr>
+                <tr>
+                    <th>Weight</th>
+                    <th>Height</th>
+                </tr>
+                <tr>
+                    <th>Mel</th>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <th>Female</th>
+                    <td>1.7</td>
+                    <td>0.05</td>
+                    <td>60%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
